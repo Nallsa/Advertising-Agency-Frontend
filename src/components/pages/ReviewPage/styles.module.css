@@ -1,0 +1,122 @@
+.reviewMain {
+  padding-top: 130px;
+  min-height: 90%;
+}
+
+.containerReview {
+  margin: auto;
+  width: 700px;
+}
+
+.containerReview input {
+  width: 650px;
+  margin: 10px 25px;
+}
+
+.containerReview textarea {
+  width: 650px;
+  height: 100px;
+  margin: 10px 25px;
+  resize: none;
+  outline: none;
+  padding: 10px;
+}
+
+.containerReview button {
+  margin: 20px 25px;
+  border: none;
+  background-color: #f21137;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  height: 40px;
+  width: 130px;
+  cursor: pointer;
+}
+
+.containerReview button:disabled {
+  opacity: 0.5;
+}
+
+.oneWordReview {
+  outline: none;
+}
+
+.containerReview p {
+  font-size: 18px;
+  margin: 5px 25px;
+}
+
+.containerReview span {
+  margin: 20px 25px;
+  font-size: 18px;
+}
+
+.textReview {
+  height: 350px;
+}
+
+.recInp {
+  width: 700px;
+  margin: 10px 0 0;
+}
+.recInp span {
+  font-size: 20px;
+}
+
+.recInp input {
+  width: auto;
+  display: block;
+}
+
+.yes {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.no {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type='radio']:checked + label {
+  color: #f21137;
+}
+input[type="text"] {
+  outline: none;
+}
+
+.containerReview label {
+  cursor: pointer;
+}
+
+.reviewBlock {
+  margin: 5px 0;
+  padding: 3px;
+  width: 650px;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+
+.reviewBlock div {
+  margin-bottom: 5px;
+}
+
+.aboutUsBlock {
+  width: 1000px;
+  margin: auto;
+}
+
+.aboutUsBlock h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.aboutUsBlock h3 {
+  font-size: 22px;
+  padding: 20px 0;
+  text-align: center;
+}

@@ -1,0 +1,82 @@
+.carouselBlock {
+  background: url('../../assets/backgrounds/bg7.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: 200px 0 150px;
+  height: 900px;
+}
+
+.carouselDark {
+  background: #000;
+}
+
+.carouselContent {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 110px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-family: 'Bebas';
+  letter-spacing: 6px;
+}
+
+.title p {
+  font-size: 110px;
+  font-weight: 700;
+  color: white;
+  font-family: 'Bebas';
+  letter-spacing: 6px;
+  /* color: transparent; */
+  /* background-clip: text; */
+  /* background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,51,35,1) 53%, rgba(253,97,48,1) 77%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%); */
+  color: #f21137;
+}
+
+.form {
+  width: 350px;
+}
+
+.formTitle {
+  font-size: 12px;
+  text-align: end;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: 'Gilroy';
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+}
+
+.formBtn {
+  width: 190px;
+  height: 50px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 160px;
+}
+
+.formBtn:hover {
+  background-color: #f21137;
+  color: white;
+}
+
+.form input {
+  width: 350px;
+  height: 50px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 22px;
+}
